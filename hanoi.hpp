@@ -16,22 +16,7 @@ class TowerInitFailure : public std::logic_error {
 class EmptyTower : public std::logic_error {
  public:
   using std::logic_error::logic_error;
-
-  EmptyTower(const std::string& what_arg, int cnt_moves)
-      : std::logic_error{what_arg}, cnt_moves_m{cnt_moves} {}
-  EmptyTower(const char* what_arg, int cnt_moves)
-      : std::logic_error{what_arg}, cnt_moves_m{cnt_moves} {}
-
-  inline void set_cnt_moves(int new_cnt_moves) noexcept;
-  int cnt_moves() const noexcept { return cnt_moves_m; }
-
- private:
-  int cnt_moves_m{-1};
 };
-
-inline void EmptyTower::set_cnt_moves(int new_cnt_moves) noexcept {
-  cnt_moves_m = new_cnt_moves;
-}
 
 // Represents a tower in the puzzle.
 class Tower {
