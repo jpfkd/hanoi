@@ -1,7 +1,7 @@
 # hanoi
 Shows you how to solve the puzzle called [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 
-## Install
+## Installation
 ```
 git clone https://github.com/jpfkd/hanoi
 cd hanoi
