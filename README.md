@@ -12,7 +12,10 @@ make
 ```
 ./hanoi 5
 ```
-You must specify the number of discs in the game as the first option. Above command will give you below output.
+
+You must specify the number of discs in the game as the first option. Above
+command will give you below output.
+
 ```
 left to right
 left to center
