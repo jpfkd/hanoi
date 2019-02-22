@@ -9,8 +9,8 @@ namespace hanoi {
 
 Tower::Tower(int num_discs) {
   if (num_discs < 0) {
-    throw TowerInitFailure(
-        "Tried to create a tower that has minus number of discs.");
+    throw TowerInitFailure{
+        "Tried to create a tower that has minus number of discs."};
   }
   discs_m.resize(num_discs);
   std::iota(discs_m.rbegin(), discs_m.rend(), 1);
