@@ -1,5 +1,5 @@
 # hanoi
-Shows you how to solve the puzzle called [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+Shows you how to solve the puzzle called [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi).
 
 ## Installation
 ```
